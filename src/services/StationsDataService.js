@@ -1,5 +1,5 @@
 class StationsDataService {
-    defaultUrl = "/stations.json"
+    defaultUrl = "stations.json"
     get(url){
         return this.delay(2000)
                 .then(() => fetch(url || this.defaultUrl))

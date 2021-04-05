@@ -32,7 +32,7 @@ const mockStations = [
 ];
 
 const server = setupServer(
-  rest.get('/stations.json', (req, res, ctx) => {
+  rest.get('stations.json', (req, res, ctx) => {
     return res(ctx.json(mockStations))
   })
 )
@@ -43,7 +43,7 @@ afterAll(() => server.close())
 
 
 test('Renders list of stations', async () => {
-  const stations = await dataService.get('/stations.json');
+  const stations = await dataService.get('stations.json');
   expect(stations).toBeDefined();
   expect(stations).toEqual(mockStations);
 });
