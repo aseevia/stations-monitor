@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stations-monitor/static/css/main.23e776c8.chunk.css",
-    "main.js": "/stations-monitor/static/js/main.29aca6c3.chunk.js",
-    "main.js.map": "/stations-monitor/static/js/main.29aca6c3.chunk.js.map",
+    "main.js": "/stations-monitor/static/js/main.ffee637f.chunk.js",
+    "main.js.map": "/stations-monitor/static/js/main.ffee637f.chunk.js.map",
     "runtime-main.js": "/stations-monitor/static/js/runtime-main.ae6c416d.js",
     "runtime-main.js.map": "/stations-monitor/static/js/runtime-main.ae6c416d.js.map",
     "static/css/2.fa441d73.chunk.css": "/stations-monitor/static/css/2.fa441d73.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.fa441d73.chunk.css",
     "static/js/2.b6fec10c.chunk.js",
     "static/css/main.23e776c8.chunk.css",
-    "static/js/main.29aca6c3.chunk.js"
+    "static/js/main.ffee637f.chunk.js"
   ]
 }
