@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './reset.css';
+import '@fontsource/ibm-plex-sans'
+import '@fontsource/ibm-plex-sans/700.css'
 import './index.css';
-import App from './App';
+import StationsMonitor from './StationsMonitor';
 import reportWebVitals from './reportWebVitals';
+import Modal from 'react-modal';
+Modal.defaultStyles.overlay.zIndex = '20';
+Modal.setAppElement('#root');
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StationsMonitor />
   </React.StrictMode>,
   document.getElementById('root')
 );

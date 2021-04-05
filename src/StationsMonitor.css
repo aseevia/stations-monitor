@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+  margin: 0;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+h1, .h1 {
+  font-size: 3em;
+  letter-spacing: -0.4px;
+  line-height: 100px;
+}
+h3, .h3 {
+  font-size: 1.5em;
+}
+
+.container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb05{
+  margin-bottom: 0.5em;
+}
+
+.mb1{
+  margin-bottom: 1em;
+}
+
+.mb2{
+  margin-bottom: 2em;
+}
+
+.mb3{
+  margin-bottom: 3em;
+}
+
+.df{
+  display: flex;
+}
+
+.tac{
+  text-align: center;
+}
+
+.aic{
+  align-items: center;
+}
+
+.modal{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(212, 217, 222);
+  outline: none;
+}
+
+.modal-message{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  max-height: 100%;
+  overflow: auto;
+  padding: 40px;
+  background-color: rgb(var(--color-white));
+  outline: none;
+}
+
+.stm {
+  min-height: 100vh;
+  padding: 2em;
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  background-color: rgb(212, 217, 222);
+}
+
+.stm__in {
+  background-color: rgb(242, 242, 242);
+  padding: 80px 2em;
+}
+
+.stm-link {
+  text-decoration: underline;
+}

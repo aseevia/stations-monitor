@@ -1,0 +1,35 @@
+
+.stm-details-content{
+    background: rgb(255, 255, 255);
+    border-radius: 0.5em; 
+    padding: 1.25em 1.5em;
+  
+  }
+  
+  .stm-details-back{
+    flex: none;
+    height: 3em;
+    width: 3em;
+    margin-right: 1.5em;
+    padding: 0.5em;
+    background: rgb(34, 34, 34);
+  }
+  
+  .stm-details-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.5em;
+  }
+  
+  .stm-details-item{
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .stm-details-item__label{
+    color: rgb(95, 95, 95);
+  }

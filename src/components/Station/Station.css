@@ -1,0 +1,29 @@
+.stm-station{
+    display: block;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.stm-station__in{
+    display: flex;
+    padding: 20px 1em;
+}
+.stm-station__name{
+    flex: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+.stm-station-status{
+    flex: none;
+    display: flex;
+    align-items: center;
+    width: 102px;
+    border-radius: 12px;
+    padding: 0 0.5em;
+    background: rgb(242, 242, 242);
+}
+
+.stm-station-status-icon{
+    margin-right: 0.25em;
+}
