@@ -1,7 +1,7 @@
 # Charging stations monitor prototype app
 
 ## Live Demo
-See it in action [here](http://aseevia.github.io/stations-monitor).
+See it in action [here](https://aseevia.github.io/stations-monitor).
 ## Features
 - Precise implementation of the given design mock.
 - Data fetching logic has been abstracted into a data service, so it's easy to switch data sources, by making changes to just StationsDataService. 
